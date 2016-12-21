@@ -1,0 +1,144 @@
+ul.sdt_menu{
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size:12px;
+	width:1000px;
+		
+}
+ul.sdt_menu a{
+	text-decoration:none;
+	outline:none;
+	}
+ul.sdt_menu li{
+	float:left;
+	width:140px;
+	height:45px;
+	position:relative;
+	cursor:pointer;
+}
+ul.sdt_menu li > a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:140px;
+	height:45px;
+	z-index:0;
+	
+	box-shadow:0px 0px 2px #000 inset;
+}
+
+ul.sdt_menu li span.sdt_wrap{
+	position:absolute;
+	top:5px;
+	left:0px;
+	width:140px;
+	height:45px;
+	z-index:1;
+}
+
+ul.sdt_menu li span span.sdt_link,
+ul.sdt_menu li span span.sdt_descr,
+ul.sdt_menu li div.sdt_box a{
+	margin-left:15px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #000;
+}
+ul.sdt_menu li span span.sdt_link{
+	color:#fff;
+	font-size:17px;
+	float:left;
+	clear:both;
+}
+ul.sdt_menu li span span.sdt_descr{
+	color:#00254F;
+	float:left;
+	clear:both;
+	width:155px; /*For dumbass IE7*/
+	font-size:10px;
+	letter-spacing:1px;
+}
+
+ul.sdt_menu li:hover{
+background-color:#408080;
+}
+
+ul.sdt_submenu{
+	
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	list-style:none;
+	display:none;
+	
+	
+}
+ul.sdt_submenu li{
+	float:left;
+	width:190px;
+	height:35px;
+
+	cursor:pointer;
+	background-color:#408080;
+}
+ul.sdt_menu li:hover > ul{
+	display:block;
+	text-shadow:1px 1px 1px #000;
+	position:relative;
+	top:45px;
+	left:0px;
+	background-color:#408080;
+}
+
+ul.sdt_submenu li:hover{
+background-color:darkcyan;
+}
+
+
+ul.sdt_submenu li > a{
+height:35px;
+width:190px;
+
+
+}
+
+ul.sdt_submenu li span span.sdt_link,
+ul.sdt_submenu li span span.sdt_descr,
+ul.sdt_submenu li div.sdt_box a{
+	margin-left:10px;
+	font-size:14px;
+	text-transform:uppercase;
+	width:190px;
+	text-shadow:1px 1px 1px #000;
+}
+ul.sdt_submenu li span span.sdt_descr{
+	color:#00254F;
+	float:left;
+	clear:both;
+	width:190px; /*For dumbass IE7*/
+	font-size:10px;
+	letter-spacing:1px;
+}
+
+ul.sdt_submenu li > ul{
+display:none;
+position:relative;
+list-style:none;
+}
+
+ul.sdt_submenu li:hover > ul{
+	display:block;
+	foat:left;
+	position:relative;
+	list-style:none;
+	left:190px;
+	top:0px;
+	background-color:#408080;
+}
+
+
+
+
+
+
+
+

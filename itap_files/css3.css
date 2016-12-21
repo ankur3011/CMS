@@ -1,0 +1,164 @@
+
+.inputbox, textarea, .button, button {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+
+
+h1.componentheading, .componentheading {
+	border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+}
+
+div.ja-moduletable h3, div.moduletable h3 {
+	border-radius: 8px 8px 0 0;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	text-shadow: 0px -1px 0 rgba(0,0,0,.6);
+}
+
+div.ja-moduletable, div.moduletable {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 0 1px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.4);
+}
+
+#ja-topsl .ja-moduletable, #ja-botsl .ja-moduletable, .ja-toppanel-mainwrap div.ja-moduletable, .ja-toppanel-mainwrap div.moduletable {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.ja-toppanel-panels .open {
+	border-radius: 0 0 8px 8px;
+	-moz-border-radius: 0 0 8px 8px;
+	-webkit-border-radius: 0 0 8px 8px;
+}
+
+.ja-content-main {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 0 1px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.4);
+}
+
+.ja-social .ja-content-main,
+.ja-agora .ja-content-main {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.ja-slidewrap {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	box-shadow: 0 3px 3px #C9D7DE;
+	-moz-box-shadow: 0 3px 3px #C9D7DE;
+	-webkit-box-shadow: 0 3px 3px #C9D7DE;
+}
+
+
+/* ------------------*/
+/* ------ MENU ------*/
+/* ------------------*/
+/* Menu Tags ---*/
+#ja-mainnav .parent-tags a.parent-tags span.menu-desc,
+#ja-mainnav .tags a.tags span.menu-desc,
+#ja-subnav .parent-tags a.parent-tags span.menu-desc,
+#ja-subnav .tags a.tags span.menu-desc {
+	text-shadow: none;
+	border-radius: 8px;
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px;
+}
+
+
+
+/* JA Slideshow 2 ---*/
+/* Slideshow K2 Component ---*/
+.ja-moduleraw-style2 {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Mainmenu ---*/
+/* Megamenu */
+.ja-megamenu .childcontent-inner {
+	border-radius: 0 5px 5px 5px;
+	-moz-border-radius: 0 5px 5px 5px;
+	-webkit-border-radius: 0 5px 5px 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ja-megamenu .level1 .childcontent-inner {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.ja-megamenu div.ja-moduletable, .ja-megamenu div.moduletable {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/* Subnav */
+#ja-subnav ul li ul {
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-moz-border-radius: 0 0 5px 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Sub Nav (lv3) ---*/
+#ja-subnav ul li ul li ul {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+/* CSSmenu */
+#ja-cssmenu li ul {
+	border-radius: 0 5px 5px 5px;
+	-moz-border-radius: 0 5px 5px 5px;
+	-webkit-border-radius: 0 5px 5px 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#ja-cssmenu ul li ul {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+/* Email */
+body.contentpane .inputbox, body.contentpane  textarea, body.contentpane  .button, body.contentpane  button { 
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border: 1px solid #D6E4EC;
+}

@@ -1,0 +1,2 @@
+
+<table border='1' width="650"  ><tr style="background:powderblue; font-weight:bolder; font-size:20px;"><td>&nbsp;&nbsp;Subcategory&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Name&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Alter tag&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Image&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Edit&nbsp;&nbsp;</td><td>&nbsp;&nbsp;Delete&nbsp;&nbsp;</td>

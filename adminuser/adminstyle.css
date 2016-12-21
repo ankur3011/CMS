@@ -1,0 +1,148 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#BDEDFF;
+	margin:0 auto;
+}
+table
+{
+background-color:#FFFFFF;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.container
+{
+
+width:100%;
+
+
+}
+
+.header
+{
+height:103px;
+width:100%;
+text-align:center;
+margin:0 auto;
+background-color:darkcyan;
+font-size:20px;
+color:#FFFFFF;
+font-weight:bold;
+}
+.submit
+{
+background:darkcyan;
+color:white;
+font-size:16px;
+font-weight:bold;
+}
+
+input,select,textarea
+{
+border:1px double darkcyan;
+border-radius:4px;
+}
+
+.product_box
+{
+	margin:0 auto;
+}
+.sidemenu
+{
+width:20%;
+margin:10px;
+
+padding-left:5px;
+background-color:white;
+padding-bottom:30px;
+float:left;
+}
+.sideheader
+{
+	background:darkcyan;
+	border-radius:5px;
+	margin-right:5px;
+	color:white;
+}
+a
+{
+background:powderblue; 
+color:black;
+cusrsor:pointer;
+text-decoration:none;
+font-weight:bold;
+font-size:15px;
+border:2px solid darkcyan;border-radius:20px;
+}
+.productdata
+{
+margin:10px;
+padding-left:5px;
+padding-top:5px;
+width:70%;
+float:left;
+
+}
+.dashboard
+{
+
+height:auto;
+width:100%;
+background:white;
+padding:10px;
+margin:0 auto;
+}
+.head_data
+{
+	background:darkcyan;
+	padding-left:5px;
+	margin-bottom:0 auto;
+	color:white;
+	border-radius:5px;
+	height:30px;
+	
+}
+
+.display
+{
+ overflow:scroll;
+ height:400px;
+ width:700px;"
+ margin:0 auto;
+}
+.excel
+{
+ margin:0 auto;
+}
+
+.space
+{
+	height:20px;
+}
+
+
+.footer
+{
+height:100px;
+width:100%;
+background-color:darkcyan;
+margin:0 auto;
+}
+#topmenu a,#topmenu a:visited{color:#008a8b;background:powderblue;}
+#topmenu a:hover{color: #294145;background: #FFF url(../Aimg/bg_menu_mix.jpg) repeat-x top;}
+#topmenu .current a, #topmenu .current a:hover, #topmenu .current a:visited{color:#294145;background: #FFF url(../Aimg/bg_menu_mix.jpg) repeat-x top;border-left: #FFF 1px solid;border-right: #FFF 1px solid;}
+#top-panel{background:#FFF;}
+
+#topmenu{width:100%;float:left;voice-family:inherit;}
+#topmenu ul{list-style:none;line-height:25px;}
+#topmenu li{display:inline;}
+#topmenu a,#topmenu a:visited{padding:5px 12px 5px 12px;text-decoration:none;font-weight:bold;}
+#topmenu .current a, #topmenu .current a:hover, #topmenu .current a:visited{padding:5px 12px 5px 12px;font-weight:bold;}

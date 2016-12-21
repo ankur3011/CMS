@@ -1,0 +1,13 @@
+Acronyms used in the stylesheet
+
+To save download time (and because I am too lazy to comment the css) I am documenting some of the class names used. This refers specifically to the sidebar, banner and content area classes that draw the border. The acronyms are simple:
+
+c=center
+r=right
+l=left
+t=top
+b=bottom
+
+For example: 
+
+	banner_tc means the repetitive image that goes the entire width of the top border of the banner. sidebar_tl refers to the non-repeating image that is positioned at the top left corner of a sidebar. content_rc refers to the repetitive image that runs the entire height of the right content border.
